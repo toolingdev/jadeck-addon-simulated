@@ -1,11 +1,11 @@
-// Simulated devices: a generic PTZ controller add-on. A practice
+// Simulated devices: a generic jadeck add-on. A practice
 // switcher, slides and mixer that touch no real gear.
 package main
 
 import (
 	"encoding/json"
 
-	"github.com/toolingdev/ptz-controller/sdk/addon"
+	"github.com/toolingdev/jadeck/sdk/addon"
 )
 
 // Version is set by the release build.
@@ -18,7 +18,7 @@ func spec() addon.Spec {
 		"inputs": []map[string]any{{"number": 1, "title": "PTZ Wide — Sanctuary"}, {"number": 2, "title": "PTZ Pulpit — Close"}}, "preview": 2, "active": 1}}
 	return addon.Spec{
 		Manifest: addon.Manifest{
-			ID: "simulated", Name: "Simulated devices", Version: Version, Publisher: "PTZ Controller", APIVersion: addon.APIVersion, Repo: "toolingdev/ptz-addon-simulated", Generic: true,
+			ID: "simulated", Name: "Simulated devices", Version: Version, Publisher: "jadeck", APIVersion: addon.APIVersion, Repo: "toolingdev/jadeck-addon-simulated", Generic: true,
 			Description: "A practice switcher, slides and mixer that touch no real gear.",
 			Reaches:     "Nothing — everything stays inside the controller",
 			ConnectionTypes: []addon.ConnectionType{

@@ -9,7 +9,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/toolingdev/ptz-controller/sdk/addon"
+	"github.com/toolingdev/jadeck/sdk/addon"
 )
 
 // ---------------------------------------------------------------- switcher

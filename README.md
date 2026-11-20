@@ -1,4 +1,4 @@
-# Simulated devices — PTZ controller add-on
+# Simulated devices — jadeck add-on
 
 A practice switcher, slides and mixer that touch no real gear.
 
@@ -7,7 +7,7 @@ Install: it ships with the controller (Settings → Add-ons); newer releases of 
 Build every platform and the `.ptzaddon` package:
 
 ```bash
-go run github.com/toolingdev/ptz-controller/sdk/addon/cmd/ptz-addon build
+go run github.com/toolingdev/jadeck/sdk/addon/cmd/ptz-addon build
 ```
 
 Try it on a controller: Settings → Add-ons → Developer → Load a folder (this folder),
