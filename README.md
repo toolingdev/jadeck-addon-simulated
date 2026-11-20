@@ -1,5 +1,9 @@
 # Simulated devices — PTZ controller add-on
 
+A practice switcher, slides and mixer that touch no real gear.
+
+Install: it ships with the controller (Settings → Add-ons); newer releases of this repository arrive as updates there.
+
 Build every platform and the `.ptzaddon` package:
 
 ```bash
