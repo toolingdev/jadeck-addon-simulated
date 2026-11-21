@@ -1,3 +1,5 @@
 bin/
 dist/
 addon.json
+/jadeck-addon-simulated
+/jadeck-addon-simulated.exe
